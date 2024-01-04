@@ -478,6 +478,18 @@ static WebPMuxError MuxGetFrameInternal(const WebPMuxImage* const wpi,
   return SynthesizeBitstream(wpi, &frame->bitstream);
 }
 
+WebPMuxError WebPMuxGetMaxFrameCount(const WebPMux* mux, uint32_t * pnth)
+{
+    // Sanity checks.
+    if (mux == NULL || pnth == NULL) {
+        return WEBP_MUX_INVALID_ARGUMENT;
+    }
+
+    *pnth = MuxImageCount((const WebPMuxImage**)&mux->images_, WEBP_CHUNK_NIL);
+
+    return WEBP_MUX_OK;
+}
+
 WebPMuxError WebPMuxGetFrame(
     const WebPMux* mux, uint32_t nth, WebPMuxFrameInfo* frame) {
   WebPMuxError err;

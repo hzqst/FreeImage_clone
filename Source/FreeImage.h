@@ -3,7 +3,7 @@
 //
 // Design and implementation by
 // - Floris van den Berg (flvdberg@wxs.nl)
-// - Hervé Drolon (drolon@infonie.fr)
+// - Herv?Drolon (drolon@infonie.fr)
 //
 // Contributors:
 // - see changes log named 'Whatsnew.txt', see header of each .h and .cpp file
@@ -760,6 +760,8 @@ typedef void (DLL_CALLCONV *FI_InitProc)(Plugin *plugin, int format_id);
 #define XPM_DEFAULT			0
 #define WEBP_DEFAULT		0		//! save with good quality (75:1)
 #define WEBP_LOSSLESS		0x100	//! save in lossless mode
+#define WEBP_LOAD_FRAME		1		//! Load specified frame
+#define WEBP_PLAYBACK		2		//! 'Play' the WEBP to generate next frame
 #define JXR_DEFAULT			0		//! save with quality 80 and no chroma subsampling (4:4:4)
 #define JXR_LOSSLESS		0x0064	//! save lossless
 #define JXR_PROGRESSIVE		0x2000	//! save as a progressive-JXR (use | to combine with other save flags)

@@ -262,6 +262,9 @@ WEBP_EXTERN WebPMuxError WebPMuxPushFrame(
 WEBP_EXTERN WebPMuxError WebPMuxGetFrame(
     const WebPMux* mux, uint32_t nth, WebPMuxFrameInfo* frame);
 
+//Gets the max frame count from the mux object.
+WEBP_EXTERN WebPMuxError WebPMuxGetMaxFrameCount(const WebPMux* mux, uint32_t* pnth);
+
 // Deletes a frame from the mux object.
 // nth=0 has a special meaning - last position.
 // Parameters:

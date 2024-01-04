@@ -204,6 +204,24 @@ Close(FreeImageIO *io, fi_handle handle, void *data) {
 	}
 }
 
+static int DLL_CALLCONV
+PageCount(FreeImageIO* io, fi_handle handle, void* data) {
+	if (data == NULL) {
+		return 0;
+	}
+	WebPMux* mux = (WebPMux*)data;
+	if (mux != NULL) {
+
+		uint32_t nth = 0;
+		auto error_status = WebPMuxGetMaxFrameCount(mux, &nth);
+		if (error_status == WEBP_MUX_OK) {
+			return nth;
+		}
+	}
+
+	return 0;
+}
+
 // ----------------------------------------------------------
 
 /**
@@ -344,6 +362,30 @@ Load(FreeImageIO *io, fi_handle handle, int page, int flags, void *data) {
 		return NULL;
 	}
 
+
+	//playback pages to generate what the user would see for this frame
+	if ((flags & WEBP_PLAYBACK) == WEBP_PLAYBACK) {
+
+		uint32_t nth = 0;
+
+		error_status = WebPMuxGetMaxFrameCount(mux, &nth);
+
+		if (error_status != WEBP_MUX_OK)
+		{
+			return NULL;
+		}
+		if (page == -1) {
+			page = 0;
+		}
+		if (page < 0 || page >= (int)nth) {
+			return NULL;
+		}
+
+		//TODO...
+
+		return dib;
+	}
+
 	try {
 		// get the MUX object
 		mux = (WebPMux*)data;
@@ -359,7 +401,7 @@ Load(FreeImageIO *io, fi_handle handle, int page, int flags, void *data) {
 		}
 
 		// get image data
-		error_status = WebPMuxGetFrame(mux, 1, &webp_frame);
+		error_status = WebPMuxGetFrame(mux, (flags & WEBP_LOAD_FRAME) ? (page + 1) : 1, &webp_frame);
 
 		if(error_status == WEBP_MUX_OK) {
 			// decode the data (can be limited to the header if flags uses FIF_LOAD_NOPIXELS)
@@ -683,7 +725,7 @@ InitWEBP(Plugin *plugin, int format_id) {
 	plugin->regexpr_proc = RegExpr;
 	plugin->open_proc = Open;
 	plugin->close_proc = Close;
-	plugin->pagecount_proc = NULL;
+	plugin->pagecount_proc = PageCount;
 	plugin->pagecapability_proc = NULL;
 	plugin->load_proc = Load;
 	plugin->save_proc = Save;
