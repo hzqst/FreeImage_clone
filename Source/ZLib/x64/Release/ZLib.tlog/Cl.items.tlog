@@ -1,0 +1,15 @@
+D:\MetaHookSv\thirdparty\FreeImage\Source\ZLib\adler32.c;D:\MetaHookSv\thirdparty\FreeImage\Source\ZLib\x64\Release\adler32.obj
+D:\MetaHookSv\thirdparty\FreeImage\Source\ZLib\compress.c;D:\MetaHookSv\thirdparty\FreeImage\Source\ZLib\x64\Release\compress.obj
+D:\MetaHookSv\thirdparty\FreeImage\Source\ZLib\crc32.c;D:\MetaHookSv\thirdparty\FreeImage\Source\ZLib\x64\Release\crc32.obj
+D:\MetaHookSv\thirdparty\FreeImage\Source\ZLib\deflate.c;D:\MetaHookSv\thirdparty\FreeImage\Source\ZLib\x64\Release\deflate.obj
+D:\MetaHookSv\thirdparty\FreeImage\Source\ZLib\gzclose.c;D:\MetaHookSv\thirdparty\FreeImage\Source\ZLib\x64\Release\gzclose.obj
+D:\MetaHookSv\thirdparty\FreeImage\Source\ZLib\gzlib.c;D:\MetaHookSv\thirdparty\FreeImage\Source\ZLib\x64\Release\gzlib.obj
+D:\MetaHookSv\thirdparty\FreeImage\Source\ZLib\gzread.c;D:\MetaHookSv\thirdparty\FreeImage\Source\ZLib\x64\Release\gzread.obj
+D:\MetaHookSv\thirdparty\FreeImage\Source\ZLib\gzwrite.c;D:\MetaHookSv\thirdparty\FreeImage\Source\ZLib\x64\Release\gzwrite.obj
+D:\MetaHookSv\thirdparty\FreeImage\Source\ZLib\infback.c;D:\MetaHookSv\thirdparty\FreeImage\Source\ZLib\x64\Release\infback.obj
+D:\MetaHookSv\thirdparty\FreeImage\Source\ZLib\inffast.c;D:\MetaHookSv\thirdparty\FreeImage\Source\ZLib\x64\Release\inffast.obj
+D:\MetaHookSv\thirdparty\FreeImage\Source\ZLib\inflate.c;D:\MetaHookSv\thirdparty\FreeImage\Source\ZLib\x64\Release\inflate.obj
+D:\MetaHookSv\thirdparty\FreeImage\Source\ZLib\inftrees.c;D:\MetaHookSv\thirdparty\FreeImage\Source\ZLib\x64\Release\inftrees.obj
+D:\MetaHookSv\thirdparty\FreeImage\Source\ZLib\trees.c;D:\MetaHookSv\thirdparty\FreeImage\Source\ZLib\x64\Release\trees.obj
+D:\MetaHookSv\thirdparty\FreeImage\Source\ZLib\uncompr.c;D:\MetaHookSv\thirdparty\FreeImage\Source\ZLib\x64\Release\uncompr.obj
+D:\MetaHookSv\thirdparty\FreeImage\Source\ZLib\zutil.c;D:\MetaHookSv\thirdparty\FreeImage\Source\ZLib\x64\Release\zutil.obj

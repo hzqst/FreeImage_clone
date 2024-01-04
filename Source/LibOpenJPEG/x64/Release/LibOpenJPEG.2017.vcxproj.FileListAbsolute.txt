@@ -1,0 +1,1 @@
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibOpenJPEG\x64\Release\LibOpenJPEG.lib

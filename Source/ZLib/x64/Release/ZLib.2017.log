@@ -1,0 +1,23 @@
+﻿  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  gzclose.c
+  gzlib.c
+  gzread.c
+  gzwrite.c
+  infback.c
+D:\MetaHookSv\thirdparty\FreeImage\Source\ZLib\gzread.c(319,17): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\ZLib\gzread.c(400,11): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\ZLib\gzread.c(472,11): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\ZLib\gzwrite.c(212,24): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\ZLib\gzwrite.c(232,21): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\ZLib\gzwrite.c(371,11): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  inffast.c
+  inflate.c
+  inftrees.c
+  trees.c
+  uncompr.c
+  zutil.c
+  正在生成代码...
+  ZLib.2017.vcxproj -> D:\MetaHookSv\thirdparty\FreeImage\Source\ZLib\x64\Release\ZLib.lib

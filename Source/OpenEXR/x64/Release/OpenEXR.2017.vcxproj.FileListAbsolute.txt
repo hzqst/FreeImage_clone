@@ -1,0 +1,1 @@
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\x64\Release\OpenEXR.lib

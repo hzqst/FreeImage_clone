@@ -1,0 +1,460 @@
+﻿  IexMathFpu.cpp
+  b44ExpLogTable.cpp
+  ImfAcesFile.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(58,22): warning C4305: “参数”: 从“double”到“T”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(58,22): warning C4305:         with
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(58,22): warning C4305:         [
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(58,22): warning C4305:             T=float
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(58,22): warning C4305:         ]
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(58,12): warning C4305: “参数”: 从“double”到“T”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(58,12): warning C4305:         with
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(58,12): warning C4305:         [
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(58,12): warning C4305:             T=float
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(58,12): warning C4305:         ]
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(61,22): warning C4305: “参数”: 从“double”到“T”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(61,22): warning C4305:         with
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(61,22): warning C4305:         [
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(61,22): warning C4305:             T=float
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(61,22): warning C4305:         ]
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(61,12): warning C4305: “参数”: 从“double”到“T”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(61,12): warning C4305:         with
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(61,12): warning C4305:         [
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(61,12): warning C4305:             T=float
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(61,12): warning C4305:         ]
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(62,22): warning C4305: “参数”: 从“double”到“T”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(62,22): warning C4305:         with
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(62,22): warning C4305:         [
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(62,22): warning C4305:             T=float
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(62,22): warning C4305:         ]
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(62,12): warning C4305: “参数”: 从“double”到“T”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(62,12): warning C4305:         with
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(62,12): warning C4305:         [
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(62,12): warning C4305:             T=float
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(62,12): warning C4305:         ]
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(425,29): warning C4305: “参数”: 从“double”到“T”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(425,29): warning C4305:         with
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(425,29): warning C4305:         [
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(425,29): warning C4305:             T=float
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(425,29): warning C4305:         ]
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(425,18): warning C4305: “参数”: 从“double”到“T”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(425,18): warning C4305:         with
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(425,18): warning C4305:         [
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(425,18): warning C4305:             T=float
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(425,18): warning C4305:         ]
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(425,7): warning C4305: “参数”: 从“double”到“T”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(425,7): warning C4305:         with
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(425,7): warning C4305:         [
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(425,7): warning C4305:             T=float
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(425,7): warning C4305:         ]
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(424,29): warning C4305: “参数”: 从“double”到“T”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(424,29): warning C4305:         with
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(424,29): warning C4305:         [
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(424,29): warning C4305:             T=float
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(424,29): warning C4305:         ]
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(424,18): warning C4305: “参数”: 从“double”到“T”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(424,18): warning C4305:         with
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(424,18): warning C4305:         [
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(424,18): warning C4305:             T=float
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(424,18): warning C4305:         ]
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(424,7): warning C4305: “参数”: 从“double”到“T”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(424,7): warning C4305:         with
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(424,7): warning C4305:         [
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(424,7): warning C4305:             T=float
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(424,7): warning C4305:         ]
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(422,29): warning C4305: “参数”: 从“double”到“T”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(422,29): warning C4305:         with
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(422,29): warning C4305:         [
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(422,29): warning C4305:             T=float
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(422,29): warning C4305:         ]
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(422,18): warning C4305: “参数”: 从“double”到“T”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(422,18): warning C4305:         with
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(422,18): warning C4305:         [
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(422,18): warning C4305:             T=float
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(422,18): warning C4305:         ]
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(422,7): warning C4305: “参数”: 从“double”到“T”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(422,7): warning C4305:         with
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(422,7): warning C4305:         [
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(422,7): warning C4305:             T=float
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(422,7): warning C4305:         ]
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(431,29): warning C4305: “参数”: 从“double”到“T”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(431,29): warning C4305:         with
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(431,29): warning C4305:         [
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(431,29): warning C4305:             T=float
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(431,29): warning C4305:         ]
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(431,18): warning C4305: “参数”: 从“double”到“T”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(431,18): warning C4305:         with
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(431,18): warning C4305:         [
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(431,18): warning C4305:             T=float
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(431,18): warning C4305:         ]
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(431,7): warning C4305: “参数”: 从“double”到“T”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(431,7): warning C4305:         with
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(431,7): warning C4305:         [
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(431,7): warning C4305:             T=float
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(431,7): warning C4305:         ]
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(430,29): warning C4305: “参数”: 从“double”到“T”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(430,29): warning C4305:         with
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(430,29): warning C4305:         [
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(430,29): warning C4305:             T=float
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(430,29): warning C4305:         ]
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(430,18): warning C4305: “参数”: 从“double”到“T”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(430,18): warning C4305:         with
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(430,18): warning C4305:         [
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(430,18): warning C4305:             T=float
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(430,18): warning C4305:         ]
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(430,7): warning C4305: “参数”: 从“double”到“T”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(430,7): warning C4305:         with
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(430,7): warning C4305:         [
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(430,7): warning C4305:             T=float
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(430,7): warning C4305:         ]
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(428,29): warning C4305: “参数”: 从“double”到“T”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(428,29): warning C4305:         with
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(428,29): warning C4305:         [
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(428,29): warning C4305:             T=float
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(428,29): warning C4305:         ]
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(428,18): warning C4305: “参数”: 从“double”到“T”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(428,18): warning C4305:         with
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(428,18): warning C4305:         [
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(428,18): warning C4305:             T=float
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(428,18): warning C4305:         ]
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(428,7): warning C4305: “参数”: 从“double”到“T”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(428,7): warning C4305:         with
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(428,7): warning C4305:         [
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(428,7): warning C4305:             T=float
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(428,7): warning C4305:         ]
+  ImfAttribute.cpp
+  ImfB44Compressor.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfB44Compressor.cpp(477,22): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfB44Compressor.cpp(480,19): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfB44Compressor.cpp(862,19): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfB44Compressor.cpp(1068,19): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+  ImfBoxAttribute.cpp
+  ImfChannelList.cpp
+  ImfChannelListAttribute.cpp
+  ImfChromaticities.cpp
+  ImfChromaticitiesAttribute.cpp
+  ImfCompositeDeepScanLine.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfCompositeDeepScanLine.cpp(279,62): warning C4267: “参数”: 从“size_t”转换到“_Ty”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfCompositeDeepScanLine.cpp(279,62): warning C4267:         with
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfCompositeDeepScanLine.cpp(279,62): warning C4267:         [
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfCompositeDeepScanLine.cpp(279,62): warning C4267:             _Ty=int
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfCompositeDeepScanLine.cpp(279,62): warning C4267:         ]
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfCompositeDeepScanLine.cpp(372,43): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  ImfCompressionAttribute.cpp
+  ImfCompressor.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfCompressor.cpp(164,33): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfCompressor.cpp(169,33): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfCompressor.cpp(215,47): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfCompressor.cpp(215,33): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  ImfConvert.cpp
+  ImfCRgbaFile.cpp
+  ImfDeepCompositing.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepCompositing.cpp(84,35): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+  ImfDeepFrameBuffer.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepFrameBuffer.cpp(56,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  ImfDeepImageStateAttribute.cpp
+  ImfDeepScanLineInputFile.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineInputFile.cpp(343,66): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineInputFile.cpp(504,44): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineInputFile.cpp(511,52): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineInputFile.cpp(518,39): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineInputFile.cpp(635,54): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineInputFile.cpp(1148,53): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineInputFile.cpp(1149,53): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineInputFile.cpp(1471,68): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineInputFile.cpp(1515,28): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineInputFile.cpp(1549,29): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineInputFile.cpp(1550,29): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineInputFile.cpp(1720,48): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineInputFile.cpp(1727,17): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineInputFile.cpp(1728,17): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineInputFile.cpp(1833,56): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineInputFile.cpp(1849,48): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+  ImfDeepScanLineInputPart.cpp
+  正在生成代码...
+  正在编译...
+  ImfDeepScanLineOutputFile.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineOutputFile.cpp(378,48): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineOutputFile.cpp(384,37): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineOutputFile.cpp(605,62): warning C4267: “参数”: 从“size_t”转换到“long”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineOutputFile.cpp(696,52): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“long”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineOutputFile.cpp(734,55): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineOutputFile.cpp(768,61): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineOutputFile.cpp(786,61): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineOutputFile.cpp(974,72): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“long”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineOutputFile.cpp(1096,53): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineOutputFile.cpp(1097,53): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  ImfDeepScanLineOutputPart.cpp
+  ImfDeepTiledInputFile.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledInputFile.cpp(326,24): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledInputFile.cpp(325,24): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledInputFile.cpp(418,44): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledInputFile.cpp(438,52): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledInputFile.cpp(445,39): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledInputFile.cpp(493,44): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledInputFile.cpp(499,35): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledInputFile.cpp(631,50): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledInputFile.cpp(1021,52): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“long”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledInputFile.cpp(1495,69): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledInputFile.cpp(1844,77): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledInputFile.cpp(1855,61): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+  ImfDeepTiledInputPart.cpp
+  ImfDeepTiledOutputFile.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledOutputFile.cpp(554,56): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledOutputFile.cpp(560,45): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledOutputFile.cpp(690,53): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledOutputFile.cpp(689,71): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledOutputFile.cpp(689,56): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledOutputFile.cpp(874,41): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“long”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledOutputFile.cpp(970,53): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledOutputFile.cpp(1010,61): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledOutputFile.cpp(1243,34): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“long”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledOutputFile.cpp(1362,53): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledOutputFile.cpp(1363,53): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledOutputFile.cpp(1712,21): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  ImfDeepTiledOutputPart.cpp
+  ImfDoubleAttribute.cpp
+  ImfDwaCompressor.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDwaCompressor.cpp(702,24): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDwaCompressor.cpp(756,38): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDwaCompressor.cpp(785,46): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDwaCompressor.cpp(941,46): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDwaCompressor.cpp(1139,38): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDwaCompressor.cpp(1914,52): warning C4267: “+=”: 从“size_t”转换到“unsigned short”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDwaCompressor.cpp(2428,34): warning C4267: “-=”: 从“size_t”转换到“unsigned short”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfDwaCompressor.cpp(2998,48): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+  ImfEnvmap.cpp
+  ImfEnvmapAttribute.cpp
+  ImfFastHuf.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfFastHuf.cpp(153,24): warning C4244: “初始化”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfFastHuf.cpp(167,24): warning C4244: “初始化”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfFastHuf.cpp(183,34): warning C4244: “=”: 从“Imath_2_2::Int64”转换到“unsigned char”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfFastHuf.cpp(186,34): warning C4244: “=”: 从“Imath_2_2::Int64”转换到“unsigned char”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfFastHuf.cpp(193,35): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfFastHuf.cpp(256,21): warning C4244: “初始化”: 从“unsigned __int64”转换到“int”，可能丢失数据
+  ImfFloatAttribute.cpp
+  ImfFloatVectorAttribute.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfFloatVectorAttribute.cpp(64,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  ImfFrameBuffer.cpp
+  ImfFramesPerSecond.cpp
+  ImfGenericInputFile.cpp
+  ImfGenericOutputFile.cpp
+  ImfHeader.cpp
+  ImfHuf.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(171,14): warning C4244: “=”: 从“Imath_2_2::Int64”转换到“char”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(250,8): warning C4244: “初始化”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(375,9): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(379,8): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(481,8): warning C4244: “初始化”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(550,16): warning C4244: “初始化”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(562,16): warning C4244: “初始化”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(621,8): warning C4244: “初始化”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(679,23): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(724,27): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(804,33): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(900,3): warning C4244: “初始化”: 从“Imath_2_2::Int64”转换到“unsigned char”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(915,13): warning C4244: “初始化”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(930,8): warning C4244: “初始化”: 从“Imath_2_2::Int64”转换到“unsigned char”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(957,6): warning C4244: “初始化”: 从“Imath_2_2::Int64”转换到“unsigned char”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(1033,21): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(1045,35): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(1081,46): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(1092,40): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+  ImfInputFile.cpp
+  正在生成代码...
+  正在编译...
+  ImfInputPart.cpp
+  ImfInputPartData.cpp
+  ImfIntAttribute.cpp
+  ImfIO.cpp
+  ImfKeyCode.cpp
+  ImfKeyCodeAttribute.cpp
+  ImfLineOrderAttribute.cpp
+  ImfLut.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfLut.cpp(156,33): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfLut.cpp(156,27): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfLut.cpp(174,22): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  ImfMatrixAttribute.cpp
+  ImfMisc.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(238,53): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(313,38): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(558,34): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(692,49): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(691,49): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(708,38): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(718,49): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(717,49): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(744,49): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(743,49): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(786,45): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(785,45): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(811,45): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(810,45): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(838,45): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(837,45): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(874,45): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(873,45): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(901,45): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(900,45): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(926,45): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(925,45): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(961,45): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(960,45): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(987,45): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(986,45): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(1015,45): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(1014,45): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(1064,45): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(1063,45): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(1092,45): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(1091,45): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(1119,45): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(1118,45): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(1160,45): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(1159,45): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(1191,45): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(1190,45): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(1217,45): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(1216,45): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(1257,45): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(1256,45): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(1288,45): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(1287,45): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(1315,45): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(1314,45): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(1357,69): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(1362,61): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(1367,62): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(1557,36): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(1556,36): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(1578,36): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(1577,36): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(1598,36): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(1597,36): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(1632,36): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(1631,36): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(1655,36): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(1654,36): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(1676,36): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(1675,36): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+  ImfMultiPartInputFile.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMultiPartInputFile.cpp(427,62): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  ImfMultiPartOutputFile.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMultiPartOutputFile.cpp(221,83): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMultiPartOutputFile.cpp(223,93): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMultiPartOutputFile.cpp(267,83): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMultiPartOutputFile.cpp(269,93): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMultiPartOutputFile.cpp(302,31): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  ImfMultiView.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfMultiView.cpp(109,13): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  ImfOpaqueAttribute.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfOpaqueAttribute.cpp(52,34): warning C4267: “参数”: 从“size_t”转换到“long”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfOpaqueAttribute.cpp(60,41): warning C4267: “参数”: 从“size_t”转换到“long”，可能丢失数据
+  ImfOutputFile.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfOutputFile.cpp(595,66): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfOutputFile.cpp(815,56): warning C4267: “参数”: 从“size_t”转换到“long”，可能丢失数据
+  ImfOutputPart.cpp
+  ImfOutputPartData.cpp
+  ImfPartType.cpp
+  ImfPizCompressor.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfPizCompressor.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfPizCompressor.cpp(177,22): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfPizCompressor.cpp(179,19): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfPizCompressor.cpp(429,20): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfPizCompressor.cpp(435,45): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfPizCompressor.cpp(476,56): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfPizCompressor.cpp(480,29): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfPizCompressor.cpp(582,60): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfPizCompressor.cpp(605,45): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfPizCompressor.cpp(669,19): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+  ImfPreviewImage.cpp
+  正在生成代码...
+  正在编译...
+  ImfPreviewImageAttribute.cpp
+  ImfPxr24Compressor.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfPxr24Compressor.cpp(187,22): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfPxr24Compressor.cpp(188,19): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfPxr24Compressor.cpp(405,21): warning C4244: “参数”: 从“__int64”转换到“uLong”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfPxr24Compressor.cpp(550,21): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+  ImfRational.cpp
+  ImfRationalAttribute.cpp
+  ImfRgbaFile.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfRgbaFile.cpp(172,49): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfRgbaFile.cpp(180,18): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfRgbaFile.cpp(183,18): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+  ImfRgbaYca.cpp
+  ImfRle.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfRle.cpp(76,40): warning C4244: “=”: 从“__int64”转换到“signed char”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfRle.cpp(96,29): warning C4244: “=”: 从“__int64”转换到“signed char”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfRle.cpp(107,21): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfRle.cpp(151,16): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+  ImfRleCompressor.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfRleCompressor.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfRleCompressor.cpp(53,22): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  ImfScanLineInputFile.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfOptimizedPixelReading.h(73,35): warning C4311: “类型强制转换”: 从“const void *__restrict ”到“unsigned long”的指针截断
+  (编译源文件“IlmImf/ImfScanLineInputFile.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfOptimizedPixelReading.h(73,35): warning C4302: “类型强制转换”: 从“const void *__restrict ”到“unsigned long”截断
+  (编译源文件“IlmImf/ImfScanLineInputFile.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfScanLineInputFile.cpp(1467,40): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+  ImfStandardAttributes.cpp
+  ImfStdIO.cpp
+  ImfStringAttribute.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfStringAttribute.cpp(62,14): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  ImfStringVectorAttribute.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfStringVectorAttribute.cpp(62,14): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfStringVectorAttribute.cpp(66,21): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  ImfSystemSpecific.cpp
+  ImfTestFile.cpp
+  ImfThreading.cpp
+  ImfTileDescriptionAttribute.cpp
+  ImfTiledInputFile.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfTiledInputFile.cpp(523,24): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  ImfTiledInputPart.cpp
+  ImfTiledMisc.cpp
+  正在生成代码...
+  正在编译...
+  ImfTiledOutputFile.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfTiledOutputFile.cpp(804,42): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfTiledOutputFile.cpp(1037,56): warning C4267: “参数”: 从“size_t”转换到“long”，可能丢失数据
+  ImfTiledOutputPart.cpp
+  ImfTiledRgbaFile.cpp
+  ImfTileOffsets.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfTileOffsets.cpp(154,91): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+  ImfTimeCode.cpp
+  ImfTimeCodeAttribute.cpp
+  ImfVecAttribute.cpp
+  ImfVersion.cpp
+  ImfWav.cpp
+  ImfZip.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfZip.cpp(146,20): warning C4267: “初始化”: 从“size_t”转换到“uLongf”，可能丢失数据
+  ImfZipCompressor.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfZipCompressor.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfZipCompressor.cpp(58,22): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmImf\ImfZipCompressor.cpp(59,19): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  ImathBox.cpp
+  ImathColorAlgo.cpp
+  ImathFun.cpp
+  ImathMatrixAlgo.cpp
+  ImathRandom.cpp
+  ImathShear.cpp
+  ImathVec.cpp
+  IexBaseExc.cpp
+  IexThrowErrnoExc.cpp
+  正在生成代码...
+  正在编译...
+  half.cpp
+  IlmThread.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmThread\IlmThread.cpp(67,5): warning C4297: “IlmThread_2_2::Thread::~Thread”: 假定函数不引发异常，但确实发生了
+  D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmThread\IlmThread.cpp(67,5):
+  析构函数或释放器具有一个(可能是隐含的)非引发异常规范
+  
+  IlmThreadMutex.cpp
+  IlmThreadPool.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmThread\IlmThreadPool.cpp(371,17): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  IlmThreadSemaphore.cpp
+  IexMathFloatExc.cpp
+  正在生成代码...
+D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\IlmThread\IlmThread.cpp(68): warning C4722: “IlmThread_2_2::Thread::~Thread”: 析构函数永远不会返回，可能会发生内存泄漏
+  OpenEXR.2017.vcxproj -> D:\MetaHookSv\thirdparty\FreeImage\Source\OpenEXR\x64\Release\OpenEXR.lib

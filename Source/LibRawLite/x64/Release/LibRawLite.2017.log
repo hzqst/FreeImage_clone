@@ -1,0 +1,1094 @@
+﻿  dcraw_common.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\libraw\libraw_const.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“internal/dcraw_common.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(147,10): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(328,35): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(331,5): warning C4996: 'swab': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _swab. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(348,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(349,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(388,120): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(469,16): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(510,24): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(539,47): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(828,16): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(1274,7): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(1299,49): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(1301,32): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(1311,39): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(1313,37): warning C4305: “*=”: 从“double”到“float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(1314,37): warning C4305: “*=”: 从“double”到“float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(1336,12): warning C4244: “=”: 从“INT64”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(1354,33): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(1359,35): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(1372,41): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(1430,27): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(1639,23): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(1640,43): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(1641,23): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(1642,72): warning C4244: “=”: 从“float”转换到“ushort”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(1713,3): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(1740,17): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(1758,17): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(1839,21): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(1841,15): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(1850,70): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(1854,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(1860,73): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(1865,31): warning C4244: “=”: 从“float”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(1868,25): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(1873,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(1920,14): warning C4244: “=”: 从“INT64”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(1925,28): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(1930,22): warning C4244: “=”: 从“float”转换到“ushort”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(1937,28): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(1942,22): warning C4244: “=”: 从“float”转换到“ushort”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(1976,56): warning C4244: “=”: 从“double”转换到“ushort”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(1982,55): warning C4244: “=”: 从“double”转换到“ushort”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(2014,32): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(2048,54): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(2053,56): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(2067,27): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(2073,27): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(2077,27): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(2081,27): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(2089,27): warning C4018: “>=”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(2089,49): warning C4018: “>=”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(2089,67): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(2118,54): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(2123,56): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(2146,31): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(2158,26): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(2159,31): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(2168,71): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(2238,19): warning C4244: “return”: 从“UINT64”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(2246,30): warning C4244: “=”: 从“UINT64”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(2302,30): warning C4244: “=”: 从“double”转换到“ushort”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(2393,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(2418,11): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(2510,22): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(2530,22): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(2673,47): warning C4244: “=”: 从“UINT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(3243,101): warning C4244: “=”: 从“double”转换到“ushort”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(3271,19): warning C4804: “<=”: 在操作中使用类型“bool”不安全
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(3802,10): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(4348,17): warning C4018: “>”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(4350,29): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(4481,35): warning C4244: “=”: 从“INT64”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(4486,25): warning C4244: “=”: 从“INT64”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(4784,26): warning C4244: “=”: 从“double”转换到“ushort”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(4842,22): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(4854,36): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5051,33): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5051,41): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5051,49): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5051,57): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5051,65): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5051,73): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5051,81): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5051,89): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5080,23): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5091,58): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5100,58): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5136,54): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5154,32): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5157,46): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5221,42): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5222,37): warning C4244: “=”: 从“float”转换到“ushort”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5262,23): warning C4018: “>”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5274,49): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5336,39): warning C4244: “/=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5336,55): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5381,51): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5381,17): warning C4244: “=”: 从“float”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5382,16): warning C4018: “>”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5387,52): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5387,19): warning C4244: “=”: 从“float”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5388,18): warning C4018: “>”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5393,60): warning C4244: “=”: 从“float”转换到“ushort”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5475,32): warning C4018: “>=”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5475,49): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5487,7): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5547,49): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5727,12): warning C4101: “row”: 未引用的局部变量
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5727,12): warning C4101: “guess”: 未引用的局部变量
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5727,12): warning C4101: “diff”: 未引用的局部变量
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5814,15): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5819,32): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5820,58): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5833,15): warning C4244: “=”: 从“float”转换到“short”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5834,21): warning C4244: “=”: 从“float”转换到“short”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5835,21): warning C4244: “=”: 从“float”转换到“short”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(5892,23): warning C4804: “<<”: 在操作中使用类型“bool”不安全
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(6116,103): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(6208,9): warning C4101: “xyz”: 未引用的局部变量
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(6383,9): warning C4101: “xyz_cam”: 未引用的局部变量
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(6383,24): warning C4101: “r”: 未引用的局部变量
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(6380,12): warning C4101: “i”: 未引用的局部变量
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(6380,12): warning C4101: “j”: 未引用的局部变量
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(6380,12): warning C4101: “k”: 未引用的局部变量
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(6593,53): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(6593,65): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(6595,46): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(6595,69): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(6608,31): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(6622,34): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(6629,32): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(6630,53): warning C4244: “=”: 从“float”转换到“ushort”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(6651,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(6652,3): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(6652,25): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(6653,25): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(6660,3): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(6669,27): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(6684,22): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(6691,23): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(6705,30): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(6714,19): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(6726,31): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(6748,22): warning C4244: “=”: 从“INT64”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(6797,33): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(6914,41): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(6916,41): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(6918,41): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(6920,41): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(7103,25): warning C4018: “>=”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(7489,20): warning C4244: “初始化”: 从“INT64”转换到“long”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(7521,20): warning C4244: “初始化”: 从“INT64”转换到“long”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(7879,26): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(7934,102): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(8149,36): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(8186,47): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(8189,47): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(8192,53): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(8195,53): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(8380,44): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(8565,90): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(8569,90): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(8960,76): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(8962,76): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(8983,76): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(8985,76): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(9006,36): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(9067,90): warning C4244: “参数”: 从“unsigned __int64”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(9111,90): warning C4244: “参数”: 从“unsigned __int64”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(9209,90): warning C4244: “参数”: 从“unsigned __int64”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(9245,72): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(9247,72): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(8936,12): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(8998,13): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(9316,12): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(9326,23): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(9338,23): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(9351,14): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(9416,50): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(9419,50): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(9425,11): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(9425,75): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(9458,48): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(9502,51): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(9503,51): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(9504,57): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(9505,57): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(9638,75): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(9638,33): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(9667,111): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(9689,55): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(9690,55): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(9703,57): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(9704,57): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(9714,91): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(9779,78): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(9842,42): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(9953,49): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(9969,49): warning C4244: “参数”: 从“unsigned __int64”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(9981,64): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10063,48): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(9411,15): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(9414,60): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(9440,37): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(9446,42): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(9662,52): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10073,15): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10074,16): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10075,17): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10076,17): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10163,17): warning C4244: “=”: 从“INT64”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10170,32): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10176,12): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10185,23): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10197,23): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10210,14): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10218,25): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10229,27): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10240,25): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10413,11): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10413,75): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10418,50): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10422,50): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10454,48): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10505,51): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10506,51): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10507,57): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10508,57): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10638,76): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10792,40): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10801,51): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10817,40): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10827,51): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10936,49): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10952,49): warning C4244: “参数”: 从“unsigned __int64”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10964,64): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11022,51): warning C4244: “=”: 从“unsigned __int64”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11050,48): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11081,69): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11081,22): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11086,55): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11094,48): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11121,53): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11150,109): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11171,55): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11172,55): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11185,57): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11186,57): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11196,91): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11244,73): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11245,73): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11260,40): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11282,29): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11283,29): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11284,29): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11324,45): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11378,30): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11476,41): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11477,41): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11495,49): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11499,59): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11508,27): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11510,27): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11515,27): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11516,27): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11566,46): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11607,94): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11611,84): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11620,43): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10214,8): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10216,38): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10220,15): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10224,43): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10225,15): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10238,15): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10246,15): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10272,10): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10273,10): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10394,15): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10395,15): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10407,15): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10420,60): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10436,37): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(10442,42): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11060,15): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11061,16): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11062,17): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11063,17): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11140,10): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11146,50): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11374,41): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11530,43): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11560,10): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11706,53): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11711,43): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11714,43): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11717,45): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11720,47): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11723,55): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11733,38): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11734,38): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11735,44): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11736,44): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11742,42): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11743,42): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11744,48): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11745,48): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11756,69): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11760,61): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11763,25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11770,28): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11774,28): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11782,76): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11786,44): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11789,27): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11792,26): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11811,28): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11814,28): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11827,21): warning C4244: “=”: 从“__int64”转换到“ushort”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11769,35): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11773,36): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11915,63): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11919,65): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11923,67): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11926,50): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11976,9): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11976,20): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11976,31): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11976,44): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11976,54): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11976,65): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11976,78): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11976,89): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11976,99): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(11981,30): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(12038,12): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(12143,32): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(12144,74): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(12146,41): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(12147,41): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(12191,38): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(12197,33): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(12202,48): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(12204,48): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(12265,76): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(12301,76): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(12331,79): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(12361,73): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(12391,74): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(12421,72): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(12448,36): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(12454,26): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(12459,30): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(12603,36): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(12680,107): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(12682,65): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(12681,97): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(12698,52): warning C4244: “=”: 从“double”转换到“long”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(12747,42): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(12777,16): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(12888,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(12927,19): warning C4244: “初始化”: 从“INT64”转换到“off_t”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(12930,27): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(12972,19): warning C4244: “初始化”: 从“INT64”转换到“off_t”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(12975,27): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(12986,42): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13018,34): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13028,33): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13055,13): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13082,39): warning C4018: “<=”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13095,21): warning C4244: “参数”: 从“INT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13124,19): warning C4018: “>”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13159,38): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13178,50): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13181,25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13186,53): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13191,43): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13194,43): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13197,45): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13200,47): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13203,55): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13213,38): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13214,38): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13215,44): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13216,44): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13222,38): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13223,38): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13224,44): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13225,44): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13236,69): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13244,36): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13259,32): warning C4244: “/=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13263,17): warning C4244: “参数”: 从“INT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13291,26): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13300,38): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13349,33): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13395,11): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13505,33): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13531,72): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13561,31): warning C4244: “=”: 从“double”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13567,46): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13568,78): warning C4244: “=”: 从“double”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13580,28): warning C4244: “=”: 从“double”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13584,9): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13585,32): warning C4244: “=”: 从“double”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13594,11): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13605,27): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13609,28): warning C4244: “+=”: 从“double”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13611,55): warning C4244: “+=”: 从“double”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13624,46): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13630,11): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13631,11): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13645,59): warning C4244: “=”: 从“double”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13646,59): warning C4244: “=”: 从“double”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13658,59): warning C4244: “=”: 从“double”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13659,59): warning C4244: “=”: 从“double”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13705,22): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13722,24): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13738,24): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13750,19): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13764,34): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13796,49): warning C4244: “参数”: 从“INT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13819,24): warning C4244: “初始化”: 从“INT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13865,13): warning C4018: “>”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13947,119): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13950,77): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13949,109): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(14000,21): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(14050,22): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(14069,22): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(14072,58): warning C4244: “/=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(12596,10): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(12597,11): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(12598,12): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13647,14): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13660,14): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13668,26): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(13675,26): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(14119,17): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(14261,79): warning C4018: “>”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(14376,17): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(14381,81): warning C4018: “>”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(14179,28): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(14208,28): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(14214,28): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(14224,12): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(14426,25): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(14429,18): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(14488,18): warning C4244: “参数”: 从“INT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(14445,12): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(14553,7): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(14662,23): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(14666,18): warning C4244: “参数”: 从“INT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(14670,18): warning C4244: “参数”: 从“INT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(14712,54): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(14718,26): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(14764,41): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(14779,50): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(14800,23): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(14805,46): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(14942,12): warning C4244: “=”: 从“INT64”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(14969,77): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(14975,51): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(14990,86): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(15000,86): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(15010,51): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(15024,51): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(15037,45): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(15041,33): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(15104,56): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(15130,14): warning C4244: “=”: 从“INT64”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(15189,12): warning C4244: “=”: 从“INT64”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(15353,50): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(15355,64): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(15397,12): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(15435,20): warning C4244: “=”: 从“INT64”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(15462,29): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(15482,12): warning C4244: “=”: 从“INT64”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(15491,18): warning C4244: “参数”: 从“INT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(15575,23): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(15576,23): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(15579,20): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(15597,3): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17223,61): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17227,40): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17201,10): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17240,38): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17240,47): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17240,56): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17240,65): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17240,73): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17240,81): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17240,89): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17240,97): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17240,105): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17244,38): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17244,46): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17244,54): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17244,62): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17244,69): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17244,77): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17244,85): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17244,93): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17244,100): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17246,39): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17246,49): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17246,60): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17246,70): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17246,80): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17246,91): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17246,102): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17246,112): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17247,39): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17247,49): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17247,59): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17247,70): warning C4305: “初始化”: 从“double”到“const float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17293,50): warning C4244: “=”: 从“UINT64”转换到“ushort”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17301,14): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17313,14): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17328,58): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17685,58): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17731,97): warning C4244: “=”: 从“__int64”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17736,18): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17739,24): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17817,39): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17821,21): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17871,28): warning C4244: “参数”: 从“INT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17872,29): warning C4244: “参数”: 从“INT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(17982,32): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(18011,54): warning C4244: “=”: 从“INT64”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(18051,12): warning C4244: “初始化”: 从“INT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(18123,7): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(18448,30): warning C4305: “*=”: 从“double”到“float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(18449,30): warning C4305: “*=”: 从“double”到“float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(18559,18): warning C4305: “=”: 从“double”到“float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(18560,18): warning C4305: “=”: 从“double”到“float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(18561,18): warning C4305: “=”: 从“double”到“float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(18576,20): warning C4305: “=”: 从“double”到“float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(18577,20): warning C4305: “=”: 从“double”到“float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(18578,20): warning C4305: “=”: 从“double”到“float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(18606,21): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(18607,21): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(19120,27): warning C4244: “=”: 从“INT64”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(19294,20): warning C4305: “=”: 从“double”到“float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(19295,20): warning C4305: “=”: 从“double”到“float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(19296,20): warning C4305: “=”: 从“double”到“float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(19458,17): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(19462,25): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(19480,14): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(19495,37): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(19690,62): warning C4806: “|”: 不安全操作: 从类型“bool”提升到类型“int”的值不能等于给定的常量
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(19714,27): warning C4804: “>>”: 在操作中使用类型“bool”不安全
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(18110,8): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(18124,8): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(18239,10): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(18284,8): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(18700,13): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(18862,12): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(18929,12): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(18939,17): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(19050,77): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(19235,13): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(19240,13): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(19866,19): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(19873,62): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(19884,62): warning C4244: “=”: 从“double”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(19886,19): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(19892,32): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(19893,60): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(19950,21): warning C4244: “=”: 从“double”转换到“ushort”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(19951,32): warning C4244: “=”: 从“double”转换到“ushort”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(19962,27): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(19962,14): warning C4244: “=”: 从“float”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(19963,28): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(19963,14): warning C4244: “=”: 从“float”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(19964,14): warning C4018: “>”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(19964,33): warning C4018: “>”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(19970,87): warning C4244: “=”: 从“float”转换到“ushort”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(20001,36): warning C4244: “=”: 从“double”转换到“ushort”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(20006,24): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(20011,81): warning C4244: “=”: 从“double”转换到“ushort”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(20017,35): warning C4244: “=”: 从“double”转换到“ushort”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(20022,24): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(20027,82): warning C4244: “=”: 从“double”转换到“ushort”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(20060,50): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(20085,17): warning C4244: “*=”: 从“float”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(20086,17): warning C4244: “*=”: 从“float”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(20087,17): warning C4244: “*=”: 从“float”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(20103,37): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(20108,40): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(20109,39): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(20110,39): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(20122,38): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(20123,38): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(20126,39): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(20127,39): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(20128,39): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(20129,40): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(20132,41): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(20133,41): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(20134,41): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(20135,41): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(20138,42): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(20141,38): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(20143,38): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(20145,38): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(20146,38): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(20147,40): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(20148,40): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(20215,25): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(20230,51): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp(20261,7): warning C4996: 'swab': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _swab. See online help for details.
+  dcraw_fileio.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\libraw\libraw_const.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“internal/dcraw_fileio.cpp”)
+  
+  demosaic_packs.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\libraw\libraw_const.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dht_demosaic.cpp(146,11): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dht_demosaic.cpp(151,11): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dht_demosaic.cpp(634,13): warning C4305: “/=”: 从“double”到“float”截断
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dht_demosaic.cpp(635,13): warning C4305: “*=”: 从“double”到“float”截断
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dht_demosaic.cpp(671,58): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dht_demosaic.cpp(673,58): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dht_demosaic.cpp(723,13): warning C4305: “/=”: 从“double”到“float”截断
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dht_demosaic.cpp(724,13): warning C4305: “*=”: 从“double”到“float”截断
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dht_demosaic.cpp(783,15): warning C4305: “/=”: 从“double”到“float”截断
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dht_demosaic.cpp(784,15): warning C4305: “*=”: 从“double”到“float”截断
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dht_demosaic.cpp(785,15): warning C4305: “/=”: 从“double”到“float”截断
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dht_demosaic.cpp(786,15): warning C4305: “*=”: 从“double”到“float”截断
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dht_demosaic.cpp(754,9): warning C4101: “h1”: 未引用的局部变量
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dht_demosaic.cpp(754,13): warning C4101: “h2”: 未引用的局部变量
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\aahd_demosaic.cpp(53,58): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\aahd_demosaic.cpp(56,58): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\aahd_demosaic.cpp(59,58): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\aahd_demosaic.cpp(294,39): warning C4244: “=”: 从“float”转换到“ushort”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\aahd_demosaic.cpp(344,20): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\aahd_demosaic.cpp(542,14): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\aahd_demosaic.cpp(544,14): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(51,22): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(65,22): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(107,22): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(116,22): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(117,22): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(132,22): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(141,22): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(142,22): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(160,99): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(175,36): warning C4244: “=”: 从“float”转换到“ushort”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(177,36): warning C4244: “=”: 从“float”转换到“ushort”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(203,32): warning C4244: “=”: 从“float”转换到“ushort”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(204,32): warning C4244: “=”: 从“float”转换到“ushort”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(218,168): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(219,168): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(220,168): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(260,34): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(264,12): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(265,12): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(266,12): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(267,12): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(268,86): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(269,86): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(270,86): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(271,86): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(277,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(278,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(279,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(280,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(282,33): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(283,33): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(284,33): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(285,33): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(253,20): warning C4101: “j”: 未引用的局部变量
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(253,18): warning C4101: “i”: 未引用的局部变量
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(325,6): warning C4101: “current”: 未引用的局部变量
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(325,25): warning C4101: “c”: 未引用的局部变量
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(353,129): warning C4244: “=”: 从“double”转换到“ushort”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(365,11): warning C4101: “pix”: 未引用的局部变量
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(419,46): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(445,46): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(459,20): warning C4244: “=”: 从“float”转换到“ushort”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(384,22): warning C4101: “tmp”: 未引用的局部变量
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(498,11): warning C4101: “pix”: 未引用的局部变量
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(559,9): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(560,9): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(561,9): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(562,9): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(564,6): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(565,6): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(566,6): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(567,6): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\dcb_demosaicing.c(552,72): warning C4101: “current”: 未引用的局部变量
+  (编译源文件“internal/demosaic_packs.cpp”)
+  
+  libraw_c_api.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\libraw\libraw_const.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“src/libraw_c_api.cpp”)
+  
+  libraw_cxx.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\libraw\libraw_const.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_fuji_compressed.cpp(85,16): warning C4101: “i”: 未引用的局部变量
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_fuji_compressed.cpp(245,24): warning C4018: “<”: 有符号/无符号不匹配
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_fuji_compressed.cpp(299,24): warning C4018: “<”: 有符号/无符号不匹配
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_fuji_compressed.cpp(993,14): warning C4101: “cur_block”: 未引用的局部变量
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(185,21): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(276,76): warning C4244: “参数”: 从“INT64”转换到“const int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(474,36): warning C4305: “=”: 从“double”到“float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(1185,38): warning C4018: “>=”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(1659,14): warning C4244: “初始化”: 从“unsigned int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(1669,61): warning C4244: “=”: 从“float”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(1670,84): warning C4244: “=”: 从“float”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(1673,100): warning C4244: “=”: 从“float”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(1855,35): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(1855,53): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(1855,73): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(1859,35): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(1859,54): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(1859,75): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(1909,96): warning C4244: “=”: 从“UINT64”转换到“ushort”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(1867,48): warning C4101: “val”: 未引用的局部变量
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(2015,70): warning C4018: “>”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(2016,39): warning C4018: “<=”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(2090,63): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(2106,57): warning C4244: “=”: 从“float”转换到“unsigned int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(2184,27): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(2206,37): warning C4244: “=”: 从“double”转换到“ushort”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(2223,25): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(2283,15): warning C4018: “>”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(2014,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(2020,10): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(2039,17): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(2053,40): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(2111,12): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(2112,12): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(2115,10): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(2128,10): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(2166,50): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(2168,11): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(2175,10): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(2214,10): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(2242,10): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(2249,10): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(2270,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(2271,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(2294,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(2295,14): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(2891,54): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(2896,54): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(3058,15): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(3063,15): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(3171,48): warning C4804: “<<”: 在操作中使用类型“bool”不安全
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(3327,28): warning C4101: “err”: 未引用的局部变量
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(3343,42): warning C4804: “<<”: 在操作中使用类型“bool”不安全
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(3448,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(3459,26): warning C4244: “*=”: 从“double”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(3460,26): warning C4244: “/=”: 从“double”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(3503,30): warning C4804: “>>”: 在操作中使用类型“bool”不安全
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(3540,38): warning C4804: “>>”: 在操作中使用类型“bool”不安全
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(3786,31): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(3798,57): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(4017,54): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(4026,29): warning C4244: “*=”: 从“float”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(4038,35): warning C4305: “初始化”: 从“double”到“float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(4038,48): warning C4305: “初始化”: 从“double”到“float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(4038,60): warning C4305: “初始化”: 从“double”到“float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(4039,36): warning C4305: “初始化”: 从“double”到“float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(4039,49): warning C4305: “初始化”: 从“double”到“float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(4039,62): warning C4305: “初始化”: 从“double”到“float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(4040,36): warning C4305: “初始化”: 从“double”到“float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(4040,51): warning C4305: “初始化”: 从“double”到“float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(4040,64): warning C4305: “初始化”: 从“double”到“float”截断
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(4071,31): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(4083,57): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(4175,27): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(4296,36): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(4299,31): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(4375,11): warning C4996: 'swab': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _swab. See online help for details.
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(4676,29): warning C4244: “*=”: 从“float”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(4688,29): warning C4244: “*=”: 从“float”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(4697,29): warning C4244: “*=”: 从“float”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(4752,11): warning C4018: “>”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(4764,19): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(4765,13): warning C4018: “>”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(4769,19): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\libraw_x3f.cpp(780,14): warning C4018: “<”: 有符号/无符号不匹配
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\libraw_x3f.cpp(797,32): warning C4244: “=”: 从“INT64”转换到“uint32_t”，可能丢失数据
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\libraw_x3f.cpp(913,13): warning C4018: “<”: 有符号/无符号不匹配
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\libraw_x3f.cpp(947,19): warning C4018: “<”: 有符号/无符号不匹配
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\libraw_x3f.cpp(920,9): warning C4101: “i”: 未引用的局部变量
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\libraw_x3f.cpp(978,13): warning C4018: “<”: 有符号/无符号不匹配
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\libraw_x3f.cpp(1128,14): warning C4018: “<”: 有符号/无符号不匹配
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\libraw_x3f.cpp(1160,14): warning C4018: “<”: 有符号/无符号不匹配
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\libraw_x3f.cpp(1332,21): warning C4018: “<”: 有符号/无符号不匹配
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\libraw_x3f.cpp(1337,23): warning C4018: “<”: 有符号/无符号不匹配
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\libraw_x3f.cpp(1350,15): warning C4018: “>=”: 有符号/无符号不匹配
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\libraw_x3f.cpp(1411,21): warning C4018: “<”: 有符号/无符号不匹配
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\libraw_x3f.cpp(1453,21): warning C4018: “<”: 有符号/无符号不匹配
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\libraw_x3f.cpp(1458,23): warning C4018: “<”: 有符号/无符号不匹配
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\libraw_x3f.cpp(1511,21): warning C4018: “<”: 有符号/无符号不匹配
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\libraw_x3f.cpp(1529,61): warning C4244: “=”: 从“uint16_t”转换到“uint8_t”，可能丢失数据
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\libraw_x3f.cpp(1549,21): warning C4018: “<”: 有符号/无符号不匹配
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\libraw_x3f.cpp(1576,16): warning C4244: “初始化”: 从“INT64”转换到“uint32_t”，可能丢失数据
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\libraw_x3f.cpp(1594,16): warning C4244: “初始化”: 从“INT64”转换到“uint32_t”，可能丢失数据
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\libraw_x3f.cpp(1624,2): warning C4018: “<”: 有符号/无符号不匹配
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\libraw_x3f.cpp(1630,13): warning C4018: “<”: 有符号/无符号不匹配
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\libraw_x3f.cpp(1685,2): warning C4018: “<”: 有符号/无符号不匹配
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\libraw_x3f.cpp(1761,2): warning C4018: “<”: 有符号/无符号不匹配
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\libraw_x3f.cpp(1766,2): warning C4018: “<”: 有符号/无符号不匹配
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\libraw_x3f.cpp(1803,3): warning C4018: “<”: 有符号/无符号不匹配
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\libraw_x3f.cpp(1921,13): warning C4018: “<”: 有符号/无符号不匹配
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\libraw_x3f.cpp(1972,21): warning C4018: “<”: 有符号/无符号不匹配
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\libraw_x3f.cpp(1980,23): warning C4018: “<”: 有符号/无符号不匹配
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\libraw_x3f.cpp(2079,17): warning C4018: “<”: 有符号/无符号不匹配
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\libraw_x3f.cpp(2143,14): warning C4018: “<”: 有符号/无符号不匹配
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\libraw_x3f.cpp(2204,18): warning C4018: “<”: 有符号/无符号不匹配
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\libraw_x3f.cpp(2215,18): warning C4018: “<”: 有符号/无符号不匹配
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\libraw_x3f.cpp(2220,18): warning C4018: “<”: 有符号/无符号不匹配
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\libraw_x3f.cpp(2231,18): warning C4018: “<”: 有符号/无符号不匹配
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\libraw_x3f.cpp(2236,18): warning C4018: “<”: 有符号/无符号不匹配
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\internal\libraw_x3f.cpp(2269,13): warning C4018: “<”: 有符号/无符号不匹配
+  (编译源文件“src/libraw_cxx.cpp”)
+  
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(6177,21): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(6180,21): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(6181,21): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(6182,34): warning C4018: “>”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(6182,67): warning C4018: “>”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(6184,22): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(6185,22): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(6189,41): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(6201,39): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(6203,40): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(6205,41): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(6207,65): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(6209,49): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(6213,97): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(6217,58): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(6225,85): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(6229,52): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(6267,15): warning C4244: “初始化”: 从“INT64”转换到“int”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(6370,29): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(6461,18): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(6461,54): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(6479,32): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(6482,32): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(6484,21): warning C4244: “=”: 从“double”转换到“uint16_t”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(6488,21): warning C4244: “=”: 从“double”转换到“uint16_t”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(6530,25): warning C4244: “=”: 从“float”转换到“uint16_t”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(6531,25): warning C4244: “=”: 从“float”转换到“uint16_t”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(6551,28): warning C4244: “=”: 从“float”转换到“uint16_t”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(6552,28): warning C4244: “=”: 从“float”转换到“uint16_t”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(6608,31): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(6613,33): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(6619,29): warning C4018: “<”: 有符号/无符号不匹配
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp(6624,31): warning C4018: “<”: 有符号/无符号不匹配
+  libraw_datastream.cpp
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\libraw\libraw_const.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“src/libraw_datastream.cpp”)
+  
+  正在生成代码...
+  LibRawLite.2017.vcxproj -> D:\MetaHookSv\thirdparty\FreeImage\Source\LibRawLite\x64\Release\LibRaw.lib

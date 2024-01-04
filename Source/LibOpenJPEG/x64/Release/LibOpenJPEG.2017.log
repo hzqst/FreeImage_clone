@@ -1,0 +1,23 @@
+﻿  bio.c
+  cio.c
+  dwt.c
+  event.c
+  image.c
+  j2k.c
+  jp2.c
+  mct.c
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibOpenJPEG\jp2.c(873,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  mqc.c
+  openjpeg.c
+  pi.c
+  raw.c
+  t1.c
+  t2.c
+  tcd.c
+  tgt.c
+  正在生成代码...
+  function_list.c
+  invert.c
+  opj_clock.c
+  正在生成代码...
+  LibOpenJPEG.2017.vcxproj -> D:\MetaHookSv\thirdparty\FreeImage\Source\LibOpenJPEG\x64\Release\LibOpenJPEG.lib

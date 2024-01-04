@@ -1,0 +1,1 @@
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibTIFF4\x64\Release\LibTIFF4.lib

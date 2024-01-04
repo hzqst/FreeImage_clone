@@ -1,0 +1,58 @@
+﻿  jaricom.c
+  jcapimin.c
+  jcapistd.c
+  jcarith.c
+  jccoefct.c
+  jccolor.c
+  jcdctmgr.c
+  jchuff.c
+  jcinit.c
+  jcmainct.c
+  jcmarker.c
+  jcmaster.c
+  jcomapi.c
+  jcparam.c
+  jcprepct.c
+  jcsample.c
+  jctrans.c
+  jdapimin.c
+  jdapistd.c
+  jdarith.c
+  正在生成代码...
+  正在编译...
+  jdatadst.c
+  jdatasrc.c
+  jdcoefct.c
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibJPEG\jdatadst.c(185,34): warning C4267: “=”: 从“size_t”转换到“unsigned long”，可能丢失数据
+  jdcolor.c
+  jddctmgr.c
+  jdhuff.c
+  jdinput.c
+  jdmainct.c
+  jdmarker.c
+  jdmaster.c
+  jdmerge.c
+  jdpostct.c
+  jdsample.c
+  jdtrans.c
+  jerror.c
+  jfdctflt.c
+  jfdctfst.c
+  jfdctint.c
+  jidctflt.c
+  jidctfst.c
+  正在生成代码...
+  正在编译...
+  jidctint.c
+  jmemmgr.c
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibJPEG\jmemmgr.c(307,47): warning C4267: “+=”: 从“size_t”转换到“long”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibJPEG\jmemmgr.c(367,46): warning C4267: “+=”: 从“size_t”转换到“long”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibJPEG\jmemmgr.c(977,35): warning C4267: “-=”: 从“size_t”转换到“long”，可能丢失数据
+D:\MetaHookSv\thirdparty\FreeImage\Source\LibJPEG\jmemmgr.c(991,35): warning C4267: “-=”: 从“size_t”转换到“long”，可能丢失数据
+  jmemnobs.c
+  jquant1.c
+  jquant2.c
+  jutils.c
+  transupp.c
+  正在生成代码...
+  LibJPEG.2017.vcxproj -> D:\MetaHookSv\thirdparty\FreeImage\Source\LibJPEG\x64\Release\LibJPEG.lib
