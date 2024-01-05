@@ -38,6 +38,31 @@ static int s_format_id;
 //   Helpers for the load function
 // ----------------------------------------------------------
 
+static BOOL
+FreeImage_SetMetadataEx(FREE_IMAGE_MDMODEL model, FIBITMAP* dib, const char* key, WORD id, FREE_IMAGE_MDTYPE type, DWORD count, DWORD length, const void* value)
+{
+	BOOL bResult = FALSE;
+	FITAG* tag = FreeImage_CreateTag();
+	if (tag) {
+		FreeImage_SetTagKey(tag, key);
+		FreeImage_SetTagID(tag, id);
+		FreeImage_SetTagType(tag, type);
+		FreeImage_SetTagCount(tag, count);
+		FreeImage_SetTagLength(tag, length);
+		FreeImage_SetTagValue(tag, value);
+		if (model == FIMD_ANIMATION) {
+			TagLib& s = TagLib::instance();
+			// get the tag description
+			const char* description = s.getTagDescription(TagLib::ANIMATION, id);
+			FreeImage_SetTagDescription(tag, description);
+		}
+		// store the tag
+		bResult = FreeImage_SetMetadata(model, dib, key, tag);
+		FreeImage_DeleteTag(tag);
+	}
+	return bResult;
+}
+
 /**
 Read the whole file into memory
 */
@@ -409,7 +434,9 @@ Load(FreeImageIO *io, fi_handle handle, int page, int flags, void *data) {
 			if(!dib) {
 				throw (1);
 			}
-			
+
+			FreeImage_SetMetadataEx(FIMD_ANIMATION, dib, "FrameTime", ANIMTAG_FRAMETIME, FIDT_LONG, 1, 4, &webp_frame.duration);
+
 			// get ICC profile
 			if(webp_flags & ICCP_FLAG) {
 				error_status = WebPMuxGetChunk(mux, "ICCP", &color_profile);
