@@ -485,7 +485,7 @@ WebPMuxError WebPMuxGetMaxFrameCount(const WebPMux* mux, uint32_t * pnth)
         return WEBP_MUX_INVALID_ARGUMENT;
     }
 
-    *pnth = MuxImageCount((const WebPMuxImage**)&mux->images_, WEBP_CHUNK_NIL);
+    *pnth = MuxImageCount((const WebPMuxImage*)mux->images_, WEBP_CHUNK_NIL);
 
     return WEBP_MUX_OK;
 }
