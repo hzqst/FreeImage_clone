@@ -436,6 +436,8 @@ Load(FreeImageIO *io, fi_handle handle, int page, int flags, void *data) {
 			}
 
 			FreeImage_SetMetadataEx(FIMD_ANIMATION, dib, "FrameTime", ANIMTAG_FRAMETIME, FIDT_LONG, 1, 4, &webp_frame.duration);
+			FreeImage_SetMetadataEx(FIMD_ANIMATION, dib, "FrameLeft", ANIMTAG_FRAMELEFT, FIDT_LONG, 1, 4, &webp_frame.x_offset);
+			FreeImage_SetMetadataEx(FIMD_ANIMATION, dib, "FrameTop", ANIMTAG_FRAMETOP, FIDT_LONG, 1, 4, &webp_frame.y_offset);
 
 			// get ICC profile
 			if(webp_flags & ICCP_FLAG) {
