@@ -744,6 +744,7 @@ typedef void (DLL_CALLCONV *FI_InitProc)(Plugin *plugin, int format_id);
 #define TARGA_DEFAULT       0
 #define TARGA_LOAD_RGB888   1       //! if set the loader converts RGB555 and ARGB8888 -> RGB888.
 #define TARGA_SAVE_RLE		2		//! if set, the writer saves with RLE compression
+#define TARGA_IGNORE_DIRECTION		4		//! if set, the direction bits are ignore (keep consistency and compatibility with Valve & Quake's LoadTGA)
 #define TIFF_DEFAULT        0
 #define TIFF_CMYK			0x0001	//! reads/stores tags for separated CMYK (use | to combine with compression flags)
 #define TIFF_PACKBITS       0x0100  //! save using PACKBITS compression

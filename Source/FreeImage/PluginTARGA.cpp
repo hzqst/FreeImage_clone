@@ -671,6 +671,7 @@ Load(FreeImageIO *io, fi_handle handle, int page, int flags, void *data) {
 	try {
 		
 		const BOOL header_only =  (flags & FIF_LOAD_NOPIXELS) == FIF_LOAD_NOPIXELS;
+		const BOOL ignore_direction = (flags & TARGA_IGNORE_DIRECTION) == TARGA_IGNORE_DIRECTION;
 				
 		// remember the start offset
 		long start_offset = io->tell_proc(handle);
@@ -731,6 +732,12 @@ Load(FreeImageIO *io, fi_handle handle, int page, int flags, void *data) {
 
 		int fliphoriz = (header.is_image_descriptor & 0x10) ? 1 : 0;
 		int flipvert = (header.is_image_descriptor & 0x20) ? 1 : 0;
+
+		if (ignore_direction)
+		{
+			fliphoriz = 0;
+			flipvert = 0;
+		}
 
 		// skip comment
 		io->seek_proc(handle, header.id_length, SEEK_CUR);
