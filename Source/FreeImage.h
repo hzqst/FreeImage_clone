@@ -158,8 +158,8 @@ typedef int32_t LONG;
 typedef int64_t INT64;
 typedef uint64_t UINT64;
 #else
-// MS is not C99 ISO compliant
-typedef long BOOL;
+// Keep consistency with MSVC2022
+typedef int BOOL;
 typedef unsigned char BYTE;
 typedef unsigned short WORD;
 typedef unsigned long DWORD;
