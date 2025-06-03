@@ -1,0 +1,84 @@
+# FreeImage CMake配置文件
+# 支持现代目标导入和传统变量设置
+
+@PACKAGE_INIT@
+
+# 包含目标定义
+include("${CMAKE_CURRENT_LIST_DIR}/FreeImageTargets.cmake")
+
+# 设置传统的CMake变量以向后兼容
+if(TARGET FreeImage::FreeImage)
+    # 获取FreeImage目标的属性
+    get_target_property(FREEIMAGE_IMPORTED_LOCATION FreeImage::FreeImage IMPORTED_LOCATION)
+    get_target_property(FREEIMAGE_IMPORTED_LOCATION_RELEASE FreeImage::FreeImage IMPORTED_LOCATION_RELEASE)
+    get_target_property(FREEIMAGE_IMPORTED_LOCATION_DEBUG FreeImage::FreeImage IMPORTED_LOCATION_DEBUG)
+    get_target_property(FREEIMAGE_INTERFACE_INCLUDE_DIRECTORIES FreeImage::FreeImage INTERFACE_INCLUDE_DIRECTORIES)
+    
+    # 设置包含目录
+    set(FREEIMAGE_INCLUDE_DIRS "${FREEIMAGE_INTERFACE_INCLUDE_DIRECTORIES}")
+    
+    # 设置库目录
+    if(FREEIMAGE_IMPORTED_LOCATION_RELEASE)
+        get_filename_component(FREEIMAGE_LIBRARY_DIRS "${FREEIMAGE_IMPORTED_LOCATION_RELEASE}" DIRECTORY)
+    elseif(FREEIMAGE_IMPORTED_LOCATION_DEBUG)
+        get_filename_component(FREEIMAGE_LIBRARY_DIRS "${FREEIMAGE_IMPORTED_LOCATION_DEBUG}" DIRECTORY)
+    elseif(FREEIMAGE_IMPORTED_LOCATION)
+        get_filename_component(FREEIMAGE_LIBRARY_DIRS "${FREEIMAGE_IMPORTED_LOCATION}" DIRECTORY)
+    else()
+        # 回退到安装前缀
+        set(FREEIMAGE_LIBRARY_DIRS "${PACKAGE_PREFIX_DIR}/lib")
+    endif()
+    
+    # 设置库文件
+    if(CMAKE_BUILD_TYPE STREQUAL "Debug" AND FREEIMAGE_IMPORTED_LOCATION_DEBUG)
+        set(FREEIMAGE_LIBRARIES "${FREEIMAGE_IMPORTED_LOCATION_DEBUG}")
+    elseif(FREEIMAGE_IMPORTED_LOCATION_RELEASE)
+        set(FREEIMAGE_LIBRARIES "${FREEIMAGE_IMPORTED_LOCATION_RELEASE}")
+    elseif(FREEIMAGE_IMPORTED_LOCATION)
+        set(FREEIMAGE_LIBRARIES "${FREEIMAGE_IMPORTED_LOCATION}")
+    else()
+        # 回退到推测的库名
+        if(WIN32)
+            if(CMAKE_BUILD_TYPE STREQUAL "Debug")
+                set(FREEIMAGE_LIBRARIES "${FREEIMAGE_LIBRARY_DIRS}/FreeImaged.lib")
+            else()
+                set(FREEIMAGE_LIBRARIES "${FREEIMAGE_LIBRARY_DIRS}/FreeImage.lib")
+            endif()
+        else()
+            set(FREEIMAGE_LIBRARIES "${FREEIMAGE_LIBRARY_DIRS}/libfreeimage.so")
+        endif()
+    endif()
+    
+    # 设置其他有用的变量
+    set(FREEIMAGE_FOUND TRUE)
+    set(FreeImage_FOUND TRUE)
+    
+    # 版本信息
+    set(FREEIMAGE_VERSION "@PROJECT_VERSION@")
+    set(FreeImage_VERSION "@PROJECT_VERSION@")
+    
+    # 调试信息
+    if(NOT FreeImage_FIND_QUIETLY)
+        message(STATUS "Found FreeImage: ${FREEIMAGE_LIBRARIES}")
+        message(STATUS "FreeImage include dirs: ${FREEIMAGE_INCLUDE_DIRS}")
+        message(STATUS "FreeImage library dirs: ${FREEIMAGE_LIBRARY_DIRS}")
+        message(STATUS "FreeImage version: ${FREEIMAGE_VERSION}")
+    endif()
+    
+else()
+    set(FREEIMAGE_FOUND FALSE)
+    set(FreeImage_FOUND FALSE)
+    if(NOT FreeImage_FIND_QUIETLY)
+        message(WARNING "FreeImage target not found")
+    endif()
+endif()
+
+# 标记为高级变量（在CMake GUI中隐藏）
+mark_as_advanced(
+    FREEIMAGE_INCLUDE_DIRS
+    FREEIMAGE_LIBRARY_DIRS
+    FREEIMAGE_LIBRARIES
+)
+
+# 检查必需的组件
+check_required_components(FreeImage) 
