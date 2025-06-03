@@ -72,12 +72,35 @@ install/
 
 在您的CMake项目中，可以这样使用FreeImage：
 
+#### 现代方式（推荐）
+
 ```cmake
 find_package(FreeImage REQUIRED)
 target_link_libraries(your_target FreeImage::FreeImage)
 ```
 
-或者使用pkg-config：
+#### 传统方式（向后兼容）
+
+```cmake
+find_package(FreeImage REQUIRED)
+target_include_directories(your_target PRIVATE ${FREEIMAGE_INCLUDE_DIRS})
+target_link_directories(your_target PRIVATE ${FREEIMAGE_LIBRARY_DIRS})
+target_link_libraries(your_target ${FREEIMAGE_LIBRARIES})
+
+# 或者简化写法
+target_link_libraries(your_target ${FREEIMAGE_LIBRARIES})
+target_include_directories(your_target PRIVATE ${FREEIMAGE_INCLUDE_DIRS})
+```
+
+#### 可用的传统变量
+
+- `FREEIMAGE_FOUND` - 是否找到FreeImage
+- `FREEIMAGE_INCLUDE_DIRS` - 头文件目录
+- `FREEIMAGE_LIBRARY_DIRS` - 库文件目录
+- `FREEIMAGE_LIBRARIES` - 库文件路径
+- `FREEIMAGE_VERSION` - FreeImage版本
+
+#### 使用pkg-config
 
 ```cmake
 find_package(PkgConfig REQUIRED)

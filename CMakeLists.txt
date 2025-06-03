@@ -37,7 +37,10 @@ if(WIN32)
     # 设置结构体对齐
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /Zp16")
     set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} /Zp16")
-    add_compile_options(/wd4819)  # 禁用C4819警告
+    
+    # 禁用不需要的警告
+    add_compile_options(/wd4819)  # 禁用C4819警告（字符编码）
+    add_compile_options(/wd4789)  # 禁用C4789警告（缓冲区溢出误报）
 endif()
 
 # 添加子目录构建依赖库
@@ -173,9 +176,12 @@ export(EXPORT FreeImageTargets
     NAMESPACE FreeImage::
 )
 
-configure_file(cmake/FreeImageConfig.cmake
+# 配置包配置文件，替换其中的变量
+configure_package_config_file(
+    "${CMAKE_CURRENT_SOURCE_DIR}/cmake/FreeImageConfig.cmake.in"
     "${CMAKE_CURRENT_BINARY_DIR}/FreeImageConfig.cmake"
-    COPYONLY
+    INSTALL_DESTINATION lib/cmake/FreeImage
+    PATH_VARS CMAKE_INSTALL_PREFIX
 )
 
 install(EXPORT FreeImageTargets
