@@ -29,10 +29,31 @@ if(TARGET FreeImage::FreeImage)
         set(FREEIMAGE_LIBRARY_DIRS "${PACKAGE_PREFIX_DIR}/lib")
     endif()
     
+    # 对于Windows DLL，我们需要使用导入库而不是DLL路径
+    if(WIN32)
+        # 获取导入库路径
+        get_target_property(FREEIMAGE_IMPORTED_IMPLIB_RELEASE FreeImage::FreeImage IMPORTED_IMPLIB_RELEASE)
+        get_target_property(FREEIMAGE_IMPORTED_IMPLIB_DEBUG FreeImage::FreeImage IMPORTED_IMPLIB_DEBUG)
+        get_target_property(FREEIMAGE_IMPORTED_IMPLIB FreeImage::FreeImage IMPORTED_IMPLIB)
+        
+        # 设置正确的库目录（导入库所在目录）
+        if(CMAKE_BUILD_TYPE STREQUAL "Debug" AND FREEIMAGE_IMPORTED_IMPLIB_DEBUG)
+            get_filename_component(FREEIMAGE_LIBRARY_DIRS "${FREEIMAGE_IMPORTED_IMPLIB_DEBUG}" DIRECTORY)
+        elseif(FREEIMAGE_IMPORTED_IMPLIB_RELEASE)
+            get_filename_component(FREEIMAGE_LIBRARY_DIRS "${FREEIMAGE_IMPORTED_IMPLIB_RELEASE}" DIRECTORY)
+        elseif(FREEIMAGE_IMPORTED_IMPLIB)
+            get_filename_component(FREEIMAGE_LIBRARY_DIRS "${FREEIMAGE_IMPORTED_IMPLIB}" DIRECTORY)
+        else()
+            set(FREEIMAGE_LIBRARY_DIRS "${PACKAGE_PREFIX_DIR}/lib")
+        endif()
+    endif()
+    
     # 设置库文件 - 根据当前配置类型选择正确的库
     # 首先检查是否有配置特定的库文件
     if(CMAKE_BUILD_TYPE STREQUAL "Debug")
-        if(FREEIMAGE_IMPORTED_LOCATION_DEBUG)
+        if(WIN32 AND FREEIMAGE_IMPORTED_IMPLIB_DEBUG)
+            set(FREEIMAGE_LIBRARIES "${FREEIMAGE_IMPORTED_IMPLIB_DEBUG}")
+        elseif(FREEIMAGE_IMPORTED_LOCATION_DEBUG)
             set(FREEIMAGE_LIBRARIES "${FREEIMAGE_IMPORTED_LOCATION_DEBUG}")
         else()
             # 如果没有Debug特定的库，构造Debug库名
@@ -44,8 +65,12 @@ if(TARGET FreeImage::FreeImage)
         endif()
     else()
         # Release或其他配置
-        if(FREEIMAGE_IMPORTED_LOCATION_RELEASE)
+        if(WIN32 AND FREEIMAGE_IMPORTED_IMPLIB_RELEASE)
+            set(FREEIMAGE_LIBRARIES "${FREEIMAGE_IMPORTED_IMPLIB_RELEASE}")
+        elseif(FREEIMAGE_IMPORTED_LOCATION_RELEASE)
             set(FREEIMAGE_LIBRARIES "${FREEIMAGE_IMPORTED_LOCATION_RELEASE}")
+        elseif(WIN32 AND FREEIMAGE_IMPORTED_IMPLIB)
+            set(FREEIMAGE_LIBRARIES "${FREEIMAGE_IMPORTED_IMPLIB}")
         elseif(FREEIMAGE_IMPORTED_LOCATION)
             set(FREEIMAGE_LIBRARIES "${FREEIMAGE_IMPORTED_LOCATION}")
         else()
@@ -66,6 +91,7 @@ if(TARGET FreeImage::FreeImage)
                 # 尝试不同的Debug库名
                 set(_debug_candidates
                     "${FREEIMAGE_LIBRARY_DIRS}/FreeImaged.lib"
+                    "${FREEIMAGE_LIBRARY_DIRS}/FreeImagedd.lib"
                     "${FREEIMAGE_LIBRARY_DIRS}/FreeImage_d.lib"
                     "${FREEIMAGE_LIBRARY_DIRS}/libFreeImaged.lib"
                 )
