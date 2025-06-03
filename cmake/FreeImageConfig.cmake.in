@@ -17,7 +17,7 @@ if(TARGET FreeImage::FreeImage)
     # 设置包含目录
     set(FREEIMAGE_INCLUDE_DIRS "${FREEIMAGE_INTERFACE_INCLUDE_DIRECTORIES}")
     
-    # 设置库目录
+    # 设置库目录 - 优先使用Release版本的路径
     if(FREEIMAGE_IMPORTED_LOCATION_RELEASE)
         get_filename_component(FREEIMAGE_LIBRARY_DIRS "${FREEIMAGE_IMPORTED_LOCATION_RELEASE}" DIRECTORY)
     elseif(FREEIMAGE_IMPORTED_LOCATION_DEBUG)
@@ -29,23 +29,65 @@ if(TARGET FreeImage::FreeImage)
         set(FREEIMAGE_LIBRARY_DIRS "${PACKAGE_PREFIX_DIR}/lib")
     endif()
     
-    # 设置库文件
-    if(CMAKE_BUILD_TYPE STREQUAL "Debug" AND FREEIMAGE_IMPORTED_LOCATION_DEBUG)
-        set(FREEIMAGE_LIBRARIES "${FREEIMAGE_IMPORTED_LOCATION_DEBUG}")
-    elseif(FREEIMAGE_IMPORTED_LOCATION_RELEASE)
-        set(FREEIMAGE_LIBRARIES "${FREEIMAGE_IMPORTED_LOCATION_RELEASE}")
-    elseif(FREEIMAGE_IMPORTED_LOCATION)
-        set(FREEIMAGE_LIBRARIES "${FREEIMAGE_IMPORTED_LOCATION}")
-    else()
-        # 回退到推测的库名
-        if(WIN32)
-            if(CMAKE_BUILD_TYPE STREQUAL "Debug")
+    # 设置库文件 - 根据当前配置类型选择正确的库
+    # 首先检查是否有配置特定的库文件
+    if(CMAKE_BUILD_TYPE STREQUAL "Debug")
+        if(FREEIMAGE_IMPORTED_LOCATION_DEBUG)
+            set(FREEIMAGE_LIBRARIES "${FREEIMAGE_IMPORTED_LOCATION_DEBUG}")
+        else()
+            # 如果没有Debug特定的库，构造Debug库名
+            if(WIN32)
                 set(FREEIMAGE_LIBRARIES "${FREEIMAGE_LIBRARY_DIRS}/FreeImaged.lib")
             else()
-                set(FREEIMAGE_LIBRARIES "${FREEIMAGE_LIBRARY_DIRS}/FreeImage.lib")
+                set(FREEIMAGE_LIBRARIES "${FREEIMAGE_LIBRARY_DIRS}/libfreeimaged.so")
             endif()
+        endif()
+    else()
+        # Release或其他配置
+        if(FREEIMAGE_IMPORTED_LOCATION_RELEASE)
+            set(FREEIMAGE_LIBRARIES "${FREEIMAGE_IMPORTED_LOCATION_RELEASE}")
+        elseif(FREEIMAGE_IMPORTED_LOCATION)
+            set(FREEIMAGE_LIBRARIES "${FREEIMAGE_IMPORTED_LOCATION}")
         else()
-            set(FREEIMAGE_LIBRARIES "${FREEIMAGE_LIBRARY_DIRS}/libfreeimage.so")
+            # 构造Release库名
+            if(WIN32)
+                set(FREEIMAGE_LIBRARIES "${FREEIMAGE_LIBRARY_DIRS}/FreeImage.lib")
+            else()
+                set(FREEIMAGE_LIBRARIES "${FREEIMAGE_LIBRARY_DIRS}/libfreeimage.so")
+            endif()
+        endif()
+    endif()
+    
+    # 如果上面的逻辑没有找到库文件，尝试智能检测
+    if(NOT EXISTS "${FREEIMAGE_LIBRARIES}")
+        if(WIN32)
+            # 在Windows上，尝试查找正确的库文件
+            if(CMAKE_BUILD_TYPE STREQUAL "Debug")
+                # 尝试不同的Debug库名
+                set(_debug_candidates
+                    "${FREEIMAGE_LIBRARY_DIRS}/FreeImaged.lib"
+                    "${FREEIMAGE_LIBRARY_DIRS}/FreeImage_d.lib"
+                    "${FREEIMAGE_LIBRARY_DIRS}/libFreeImaged.lib"
+                )
+                foreach(_candidate ${_debug_candidates})
+                    if(EXISTS "${_candidate}")
+                        set(FREEIMAGE_LIBRARIES "${_candidate}")
+                        break()
+                    endif()
+                endforeach()
+            else()
+                # Release模式
+                set(_release_candidates
+                    "${FREEIMAGE_LIBRARY_DIRS}/FreeImage.lib"
+                    "${FREEIMAGE_LIBRARY_DIRS}/libFreeImage.lib"
+                )
+                foreach(_candidate ${_release_candidates})
+                    if(EXISTS "${_candidate}")
+                        set(FREEIMAGE_LIBRARIES "${_candidate}")
+                        break()
+                    endif()
+                endforeach()
+            endif()
         endif()
     endif()
     
@@ -63,6 +105,7 @@ if(TARGET FreeImage::FreeImage)
         message(STATUS "FreeImage include dirs: ${FREEIMAGE_INCLUDE_DIRS}")
         message(STATUS "FreeImage library dirs: ${FREEIMAGE_LIBRARY_DIRS}")
         message(STATUS "FreeImage version: ${FREEIMAGE_VERSION}")
+        message(STATUS "Current build type: ${CMAKE_BUILD_TYPE}")
     endif()
     
 else()
