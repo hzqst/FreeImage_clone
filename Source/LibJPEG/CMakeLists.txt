@@ -46,6 +46,7 @@ set(LIBJPEG_SOURCES
     jquant1.c
     jquant2.c
     jutils.c
+    transupp.c
 )
 
 add_library(LibJPEG STATIC ${LIBJPEG_SOURCES})
@@ -59,4 +60,4 @@ target_include_directories(LibJPEG PUBLIC
 set_target_properties(LibJPEG PROPERTIES
     OUTPUT_NAME "jpeg"
     DEBUG_POSTFIX "d"
-) 
+)

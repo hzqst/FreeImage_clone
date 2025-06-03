@@ -37,6 +37,7 @@ if(WIN32)
     # 设置结构体对齐
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /Zp16")
     set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} /Zp16")
+    add_compile_options(/wd4819)  # 禁用C4819警告
 endif()
 
 # 添加子目录构建依赖库
