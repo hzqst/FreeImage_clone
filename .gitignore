@@ -29,3 +29,7 @@
 *.app
 
 *.vcxproj.user
+
+# MSVC build output directories
+**/x64/
+**/Win32/

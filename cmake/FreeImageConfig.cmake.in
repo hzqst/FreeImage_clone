@@ -1,0 +1,153 @@
+# FreeImage CMake配置文件
+# 支持现代目标导入和传统变量设置
+
+@PACKAGE_INIT@
+
+# 包含目标定义
+include("${CMAKE_CURRENT_LIST_DIR}/FreeImageTargets.cmake")
+
+# 设置传统的CMake变量以向后兼容
+if(TARGET FreeImage::FreeImage)
+    # 获取FreeImage目标的属性
+    get_target_property(FREEIMAGE_IMPORTED_LOCATION FreeImage::FreeImage IMPORTED_LOCATION)
+    get_target_property(FREEIMAGE_IMPORTED_LOCATION_RELEASE FreeImage::FreeImage IMPORTED_LOCATION_RELEASE)
+    get_target_property(FREEIMAGE_IMPORTED_LOCATION_DEBUG FreeImage::FreeImage IMPORTED_LOCATION_DEBUG)
+    get_target_property(FREEIMAGE_INTERFACE_INCLUDE_DIRECTORIES FreeImage::FreeImage INTERFACE_INCLUDE_DIRECTORIES)
+    
+    # 设置包含目录
+    set(FREEIMAGE_INCLUDE_DIRS "${FREEIMAGE_INTERFACE_INCLUDE_DIRECTORIES}")
+    
+    # 设置库目录 - 优先使用Release版本的路径
+    if(FREEIMAGE_IMPORTED_LOCATION_RELEASE)
+        get_filename_component(FREEIMAGE_LIBRARY_DIRS "${FREEIMAGE_IMPORTED_LOCATION_RELEASE}" DIRECTORY)
+    elseif(FREEIMAGE_IMPORTED_LOCATION_DEBUG)
+        get_filename_component(FREEIMAGE_LIBRARY_DIRS "${FREEIMAGE_IMPORTED_LOCATION_DEBUG}" DIRECTORY)
+    elseif(FREEIMAGE_IMPORTED_LOCATION)
+        get_filename_component(FREEIMAGE_LIBRARY_DIRS "${FREEIMAGE_IMPORTED_LOCATION}" DIRECTORY)
+    else()
+        # 回退到安装前缀
+        set(FREEIMAGE_LIBRARY_DIRS "${PACKAGE_PREFIX_DIR}/lib")
+    endif()
+    
+    # 对于Windows DLL，我们需要使用导入库而不是DLL路径
+    if(WIN32)
+        # 获取导入库路径
+        get_target_property(FREEIMAGE_IMPORTED_IMPLIB_RELEASE FreeImage::FreeImage IMPORTED_IMPLIB_RELEASE)
+        get_target_property(FREEIMAGE_IMPORTED_IMPLIB_DEBUG FreeImage::FreeImage IMPORTED_IMPLIB_DEBUG)
+        get_target_property(FREEIMAGE_IMPORTED_IMPLIB FreeImage::FreeImage IMPORTED_IMPLIB)
+        
+        # 设置正确的库目录（导入库所在目录）
+        if(CMAKE_BUILD_TYPE STREQUAL "Debug" AND FREEIMAGE_IMPORTED_IMPLIB_DEBUG)
+            get_filename_component(FREEIMAGE_LIBRARY_DIRS "${FREEIMAGE_IMPORTED_IMPLIB_DEBUG}" DIRECTORY)
+        elseif(FREEIMAGE_IMPORTED_IMPLIB_RELEASE)
+            get_filename_component(FREEIMAGE_LIBRARY_DIRS "${FREEIMAGE_IMPORTED_IMPLIB_RELEASE}" DIRECTORY)
+        elseif(FREEIMAGE_IMPORTED_IMPLIB)
+            get_filename_component(FREEIMAGE_LIBRARY_DIRS "${FREEIMAGE_IMPORTED_IMPLIB}" DIRECTORY)
+        else()
+            set(FREEIMAGE_LIBRARY_DIRS "${PACKAGE_PREFIX_DIR}/lib")
+        endif()
+    endif()
+    
+    # 设置库文件 - 根据当前配置类型选择正确的库
+    # 首先检查是否有配置特定的库文件
+    if(CMAKE_BUILD_TYPE STREQUAL "Debug")
+        if(WIN32 AND FREEIMAGE_IMPORTED_IMPLIB_DEBUG)
+            set(FREEIMAGE_LIBRARIES "${FREEIMAGE_IMPORTED_IMPLIB_DEBUG}")
+        elseif(FREEIMAGE_IMPORTED_LOCATION_DEBUG)
+            set(FREEIMAGE_LIBRARIES "${FREEIMAGE_IMPORTED_LOCATION_DEBUG}")
+        else()
+            # 如果没有Debug特定的库，构造Debug库名
+            if(WIN32)
+                set(FREEIMAGE_LIBRARIES "${FREEIMAGE_LIBRARY_DIRS}/FreeImaged.lib")
+            else()
+                set(FREEIMAGE_LIBRARIES "${FREEIMAGE_LIBRARY_DIRS}/libfreeimaged.so")
+            endif()
+        endif()
+    else()
+        # Release或其他配置
+        if(WIN32 AND FREEIMAGE_IMPORTED_IMPLIB_RELEASE)
+            set(FREEIMAGE_LIBRARIES "${FREEIMAGE_IMPORTED_IMPLIB_RELEASE}")
+        elseif(FREEIMAGE_IMPORTED_LOCATION_RELEASE)
+            set(FREEIMAGE_LIBRARIES "${FREEIMAGE_IMPORTED_LOCATION_RELEASE}")
+        elseif(WIN32 AND FREEIMAGE_IMPORTED_IMPLIB)
+            set(FREEIMAGE_LIBRARIES "${FREEIMAGE_IMPORTED_IMPLIB}")
+        elseif(FREEIMAGE_IMPORTED_LOCATION)
+            set(FREEIMAGE_LIBRARIES "${FREEIMAGE_IMPORTED_LOCATION}")
+        else()
+            # 构造Release库名
+            if(WIN32)
+                set(FREEIMAGE_LIBRARIES "${FREEIMAGE_LIBRARY_DIRS}/FreeImage.lib")
+            else()
+                set(FREEIMAGE_LIBRARIES "${FREEIMAGE_LIBRARY_DIRS}/libfreeimage.so")
+            endif()
+        endif()
+    endif()
+    
+    # 如果上面的逻辑没有找到库文件，尝试智能检测
+    if(NOT EXISTS "${FREEIMAGE_LIBRARIES}")
+        if(WIN32)
+            # 在Windows上，尝试查找正确的库文件
+            if(CMAKE_BUILD_TYPE STREQUAL "Debug")
+                # 尝试不同的Debug库名
+                set(_debug_candidates
+                    "${FREEIMAGE_LIBRARY_DIRS}/FreeImaged.lib"
+                    "${FREEIMAGE_LIBRARY_DIRS}/FreeImagedd.lib"
+                    "${FREEIMAGE_LIBRARY_DIRS}/FreeImage_d.lib"
+                    "${FREEIMAGE_LIBRARY_DIRS}/libFreeImaged.lib"
+                )
+                foreach(_candidate ${_debug_candidates})
+                    if(EXISTS "${_candidate}")
+                        set(FREEIMAGE_LIBRARIES "${_candidate}")
+                        break()
+                    endif()
+                endforeach()
+            else()
+                # Release模式
+                set(_release_candidates
+                    "${FREEIMAGE_LIBRARY_DIRS}/FreeImage.lib"
+                    "${FREEIMAGE_LIBRARY_DIRS}/libFreeImage.lib"
+                )
+                foreach(_candidate ${_release_candidates})
+                    if(EXISTS "${_candidate}")
+                        set(FREEIMAGE_LIBRARIES "${_candidate}")
+                        break()
+                    endif()
+                endforeach()
+            endif()
+        endif()
+    endif()
+    
+    # 设置其他有用的变量
+    set(FREEIMAGE_FOUND TRUE)
+    set(FreeImage_FOUND TRUE)
+    
+    # 版本信息
+    set(FREEIMAGE_VERSION "@PROJECT_VERSION@")
+    set(FreeImage_VERSION "@PROJECT_VERSION@")
+    
+    # 调试信息
+    if(NOT FreeImage_FIND_QUIETLY)
+        message(STATUS "Found FreeImage: ${FREEIMAGE_LIBRARIES}")
+        message(STATUS "FreeImage include dirs: ${FREEIMAGE_INCLUDE_DIRS}")
+        message(STATUS "FreeImage library dirs: ${FREEIMAGE_LIBRARY_DIRS}")
+        message(STATUS "FreeImage version: ${FREEIMAGE_VERSION}")
+        message(STATUS "Current build type: ${CMAKE_BUILD_TYPE}")
+    endif()
+    
+else()
+    set(FREEIMAGE_FOUND FALSE)
+    set(FreeImage_FOUND FALSE)
+    if(NOT FreeImage_FIND_QUIETLY)
+        message(WARNING "FreeImage target not found")
+    endif()
+endif()
+
+# 标记为高级变量（在CMake GUI中隐藏）
+mark_as_advanced(
+    FREEIMAGE_INCLUDE_DIRS
+    FREEIMAGE_LIBRARY_DIRS
+    FREEIMAGE_LIBRARIES
+)
+
+# 检查必需的组件
+check_required_components(FreeImage) 
