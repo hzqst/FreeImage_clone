@@ -1,1 +1,0 @@
-D:\MetaHookSv\thirdparty\FreeImage\Source\LibPNG\x64\Release\LibPNG.lib
