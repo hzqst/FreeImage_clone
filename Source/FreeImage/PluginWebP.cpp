@@ -452,6 +452,14 @@ Load(FreeImageIO *io, fi_handle handle, int page, int flags, void *data) {
 			FreeImage_SetMetadataEx(FIMD_ANIMATION, dib, "FrameLeft", ANIMTAG_FRAMELEFT, FIDT_LONG, 1, 4, &webp_frame.x_offset);
 			FreeImage_SetMetadataEx(FIMD_ANIMATION, dib, "FrameTop", ANIMTAG_FRAMETOP, FIDT_LONG, 1, 4, &webp_frame.y_offset);
 
+			// Preserve WebP's 0/1 enum values, not the GIF disposal method numbers.
+			const int blending_method = (int)webp_frame.blend_method;
+			const int disposal_method = (int)webp_frame.dispose_method;
+			if(!FreeImage_SetMetadataEx(FIMD_ANIMATION, dib, "BlendingMethod", ANIMTAG_BLENDINGMETHOD, FIDT_LONG, 1, sizeof(blending_method), &blending_method) ||
+				!FreeImage_SetMetadataEx(FIMD_ANIMATION, dib, "DisposalMethod", ANIMTAG_DISPOSALMETHOD, FIDT_LONG, 1, sizeof(disposal_method), &disposal_method)) {
+				throw (1);
+			}
+
 			// get ICC profile
 			if(webp_flags & ICCP_FLAG) {
 				error_status = WebPMuxGetChunk(mux, "ICCP", &color_profile);
@@ -499,6 +507,9 @@ Load(FreeImageIO *io, fi_handle handle, int page, int flags, void *data) {
 		return dib;
 
 	} catch(int) {
+		if(dib) {
+			FreeImage_Unload(dib);
+		}
 		WebPDataClear(&webp_frame.bitstream);
 		return NULL;
 	}
