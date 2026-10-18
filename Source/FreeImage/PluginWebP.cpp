@@ -425,6 +425,14 @@ Load(FreeImageIO *io, fi_handle handle, int page, int flags, void *data) {
 			throw (1);
 		}
 
+		// Frame bitmaps are subrectangles; preserve the container canvas separately.
+		int logical_width = 0;
+		int logical_height = 0;
+		error_status = WebPMuxGetCanvasSize(mux, &logical_width, &logical_height);
+		if(error_status != WEBP_MUX_OK || logical_width <= 0 || logical_height <= 0) {
+			throw (1);
+		}
+
 		// get image data
 		error_status = WebPMuxGetFrame(mux, (flags & WEBP_LOAD_FRAME) ? (page + 1) : 1, &webp_frame);
 
@@ -432,6 +440,11 @@ Load(FreeImageIO *io, fi_handle handle, int page, int flags, void *data) {
 			// decode the data (can be limited to the header if flags uses FIF_LOAD_NOPIXELS)
 			dib = DecodeImage(&webp_frame.bitstream, flags);
 			if(!dib) {
+				throw (1);
+			}
+
+			if(!FreeImage_SetMetadataEx(FIMD_ANIMATION, dib, "LogicalWidth", ANIMTAG_LOGICALWIDTH, FIDT_LONG, 1, sizeof(logical_width), &logical_width) ||
+				!FreeImage_SetMetadataEx(FIMD_ANIMATION, dib, "LogicalHeight", ANIMTAG_LOGICALHEIGHT, FIDT_LONG, 1, sizeof(logical_height), &logical_height)) {
 				throw (1);
 			}
 
