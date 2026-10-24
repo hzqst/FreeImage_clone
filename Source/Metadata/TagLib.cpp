@@ -1428,6 +1428,7 @@ static TagInfo
     {  0x1004, (char *) "Interlaced", (char *) "Interlaced"},
     {  0x1005, (char *) "FrameTime", (char *) "Frame display time"},
     {  0x1006, (char *) "DisposalMethod", (char *) "Frame disposal method"},
+    {  0x1007, (char *) "BlendingMethod", (char *) "Frame blending method"},
     {  0x0000, (char *) NULL, (char *) NULL}
   };
 

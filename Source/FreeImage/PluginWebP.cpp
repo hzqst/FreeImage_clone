@@ -425,6 +425,14 @@ Load(FreeImageIO *io, fi_handle handle, int page, int flags, void *data) {
 			throw (1);
 		}
 
+		// Frame bitmaps are subrectangles; preserve the container canvas separately.
+		int logical_width = 0;
+		int logical_height = 0;
+		error_status = WebPMuxGetCanvasSize(mux, &logical_width, &logical_height);
+		if(error_status != WEBP_MUX_OK || logical_width <= 0 || logical_height <= 0) {
+			throw (1);
+		}
+
 		// get image data
 		error_status = WebPMuxGetFrame(mux, (flags & WEBP_LOAD_FRAME) ? (page + 1) : 1, &webp_frame);
 
@@ -435,9 +443,22 @@ Load(FreeImageIO *io, fi_handle handle, int page, int flags, void *data) {
 				throw (1);
 			}
 
+			if(!FreeImage_SetMetadataEx(FIMD_ANIMATION, dib, "LogicalWidth", ANIMTAG_LOGICALWIDTH, FIDT_LONG, 1, sizeof(logical_width), &logical_width) ||
+				!FreeImage_SetMetadataEx(FIMD_ANIMATION, dib, "LogicalHeight", ANIMTAG_LOGICALHEIGHT, FIDT_LONG, 1, sizeof(logical_height), &logical_height)) {
+				throw (1);
+			}
+
 			FreeImage_SetMetadataEx(FIMD_ANIMATION, dib, "FrameTime", ANIMTAG_FRAMETIME, FIDT_LONG, 1, 4, &webp_frame.duration);
 			FreeImage_SetMetadataEx(FIMD_ANIMATION, dib, "FrameLeft", ANIMTAG_FRAMELEFT, FIDT_LONG, 1, 4, &webp_frame.x_offset);
 			FreeImage_SetMetadataEx(FIMD_ANIMATION, dib, "FrameTop", ANIMTAG_FRAMETOP, FIDT_LONG, 1, 4, &webp_frame.y_offset);
+
+			// Preserve WebP's 0/1 enum values, not the GIF disposal method numbers.
+			const int blending_method = (int)webp_frame.blend_method;
+			const int disposal_method = (int)webp_frame.dispose_method;
+			if(!FreeImage_SetMetadataEx(FIMD_ANIMATION, dib, "BlendingMethod", ANIMTAG_BLENDINGMETHOD, FIDT_LONG, 1, sizeof(blending_method), &blending_method) ||
+				!FreeImage_SetMetadataEx(FIMD_ANIMATION, dib, "DisposalMethod", ANIMTAG_DISPOSALMETHOD, FIDT_LONG, 1, sizeof(disposal_method), &disposal_method)) {
+				throw (1);
+			}
 
 			// get ICC profile
 			if(webp_flags & ICCP_FLAG) {
@@ -486,6 +507,9 @@ Load(FreeImageIO *io, fi_handle handle, int page, int flags, void *data) {
 		return dib;
 
 	} catch(int) {
+		if(dib) {
+			FreeImage_Unload(dib);
+		}
 		WebPDataClear(&webp_frame.bitstream);
 		return NULL;
 	}
