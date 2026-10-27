@@ -19,12 +19,6 @@ foreach(OUTPUTCONFIG ${CMAKE_CONFIGURATION_TYPES})
     set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY_${OUTPUTCONFIG} ${CMAKE_BINARY_DIR}/lib)
 endforeach()
 
-option(USE_VCLTL "USE VCLTL" OFF)
-
-if(USE_VCLTL)
-include("VC-LTL helper for cmake.cmake")
-endif()
-
 # 编译选项
 if(WIN32)
     add_definitions(-DWIN32 -D_WINDOWS -D_USRDLL -DFREEIMAGE_EXPORTS -D_CRT_SECURE_NO_DEPRECATE)
